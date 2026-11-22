@@ -64,7 +64,7 @@ WORKSPACE_README_TEMPLATE = """# {name}
 Multi-repository AI Agent Workspace managed by [`amw-lite`](https://github.com/chengjian0813/amw-lite).
 
 ## 10-Minute Onboarding
-1. Install `amw-lite`: `uv tool install amw-lite` (or `pipx install amw-lite`).
+1. Install `amw-lite`: `uv tool install git+https://github.com/chengjian0813/amw-lite.git` (or `pipx install git+https://github.com/chengjian0813/amw-lite.git`).
 2. Copy `.workspace/local.example.yaml` to `.workspace/local.yaml` and fill in your local repository checkout paths.
 3. Run `amw-lite doctor` to verify Git, repositories, and optional tools (such as Alibaba `ocr` CLI).
 4. Open Claude Code, Codex, or Cursor in this directory and say:
